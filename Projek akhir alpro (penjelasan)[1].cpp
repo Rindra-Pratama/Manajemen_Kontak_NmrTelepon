@@ -47,7 +47,7 @@ public:
         daftar_kontak = new Kontak[kapasitas];
     }
     
-    // Metode untuk menambah kontak baru
+    // untuk menambah kontak baru
     void tambahKontak(string nama, string nomor_telepon, string email) {
         if (jumlah_kontak == kapasitas) {
             resize();
